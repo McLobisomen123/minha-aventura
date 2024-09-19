@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <title>Em busca do celular perdido</title>
+</head>
+<body>
+<main>
+    <div class="passo ativo" id="passo-0">
+        <img src="cenario-passo0.jpg" alt="">
+        <p>Certo dia, ao perder meu celular, revi meus passos na tentativa de localizá-lo.
+            Escolha seu caminho:
+        </p>
+        <button class="btn-proximo" data-proximo="1">Ir pela rua da direita</button>
+        <button class="btn-proximo" data-proximo="2">Ir pela rua da esquerda</button>
+    </div>
+    <div class="passo" id="passo-1">
+        <p>Indo pela rua da direita, você terá mais duas opções de caminho.</p>
+        <button class="btn-proximo" data-proximo="3">Ir pela esquerda</button>
+        <button class="btn-proximo" data-proximo="4">Ir pela direita</button>
+    </div>
+    <div class="passo" id="passo-2">
+        <p>Indo pela rua da esqueda, você terá mais duas opções de caminho.</p>
+        <button class="btn-proximo" data-proximo="5">Ir pela direita</button>
+        <button class="btn-proximo" data-proximo="6">Ir pela esquerda</button>
+    </div>
+    <div class="passo" id="passo-3">
+        <p>Ao seguir pela esquerda, encontrará uma reta. </p>
+            <button class="btn-proximo" data-proximo="7">Seguir a reta</button>
+    </div>
+    <div class="passo" id="passo-4">
+        <p>Infelizmente, este caminho é sem saída. Seu celular não foi encontrado neste local.
+            Reiniciem a página.
+        </p>
+    </div>
+    <div class="passo" id="passo-5">
+        <p>Ao seguir pela direita, encontrará uma reta.</p>
+        <button class="btn-proximo" data-proximo="7">seguir a reta</button>
+    </div>
+    <div class="passo" id="passo-6">
+        <p>Infelizmente, este caminho é sem saída. Seu celular não foi encontrado neste local.
+            Reiniciem a página.</p>
+    </div>
+    <div class="passo" id="passo-7">
+        <p>Ao final da reta, você encontrará duas lojas para procurar.</p>
+        <button class="btn-proximo" data-proximo="8">Seguir pela loja da direita</button>
+        <button class="btn-proximo" data-proximo="9">Seguir pela loja da esquerda</button>
+    </div>
+    <div class="passo" id="passo-8">
+        <p>Ao entrar na loja da direita, você avista o gerente.</p>
+        <button class="btn-proximo" data-proximo="10">Falar com o gerente</button>
+    </div>
+    <div class="passo" id="passo-9">
+        <p>Ao entrar na loja da esquerda, o gerente informa que não encontrou seu celular> </p>
+        <button class="btn-proximo" data-proximo="11">Ir para outra loja</button>
+    </div>
+    <div class="passo" id="passo-10">
+        <p>Ao conversar com o gerente ,você tem a sorte de descobrir que ele havia encontrado e guardado seu celular>
+            Saia da página. </p>
+    </div>
+    <div class="passo" id="passo-11">
+        <p>Ao entrar na loja da direita, você avista o gerente. </p>
+        <button class="btn-proximo" data-proximo="10">Falar com o gerente</button>
+    </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
